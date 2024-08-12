@@ -1,0 +1,11 @@
+html, body{margin: 0;background-color: rgb(215, 215, 122); overflow-x: hidden;}
+
+.secPrincipal{width: 70%; background-color: blanchedalmond; margin: 0 auto;}
+
+.divPrincipal{display: flex; margin: 0 auto; padding: 10%;}
+
+.divImgDono{background-color: black; width: 500px; height: 500px;}
+
+.divTextoDono{ text-align: center; width: 100%;}
+
+.tituloPagina{text-align: center; font-size: 5rem;}
