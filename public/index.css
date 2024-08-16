@@ -1,1 +1,61 @@
 html, body{margin: 0; height: 100vh;}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    display:flex;
+    max-height: 400px;
+    gap: 10px;
+    overflow:hidden;
+  }
+
+  .container > div {
+    flex: 1;
+    border-radius: 0.5rem;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    box-shadow: 1px 5px 15px #1e0e3e;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+  
+  }
+
+  .container > div:nth-of-type(1) { background: url("./fotos/picadinho.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(2) { background: url("./fotos/parmegiana.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(3) { background: url("./fotos/peixe.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(4) { background: url("./fotos/sobrecoxa.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(5) { background: url("./fotos/macarrao.webp") no-repeat 50%/cover;}
+    
+  .container > div .content {
+    font-size: 1.5rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    flex-direction: column;
+    height: 350px;
+    justify-content: flex-end;
+    background: #02022e;
+    background: linear-gradient(0deg, rgba(2, 2, 46, 0.6755077031) 0%, rgba(255, 255, 255, 0) 100%);
+    transform: translatey(100%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
+    visibility: hidden;
+    width: 100%;
+  }
+  .container > div .content span {
+    display:block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
+  .container > div:hover {
+    flex: 0 0 400px;
+    box-shadow: 1px 3px 15px #7645d8;
+  }
+  .container > div:hover .content {
+    opacity: 1;
+    transform: translatey(0%);
+    visibility: visible;
+    height: 350px;
+  }

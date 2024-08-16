@@ -13,7 +13,31 @@
     <section><?php include './menu.php' ?></section>
 
     <section>
-        <div><h1>PAGINA PRINCIPAL</h1></div>
+        <div>
+            <div><h1>PAGINA PRINCIPAL</h1></div>
+        </div>
+        <div class="container col-s-12">
+    <div>
+      <div class="content col-s-6">
+        <h2>Picolés</h2>
+      </div>
+    </div>
+    <div>
+      <div class="content col-s-6">
+        <h2>Massas</h2>
+      </div>
+    </div>
+    <div>
+      <div class="content col-s-6">
+        <h2>Açaí</h2>
+      </div>
+    </div>
+    <div>
+      <div class="content col-s-6">
+        <h2>Caldas dem Picolé</h2>
+      </div>
+    </div>
+  </div>
     </section>
     <footer>
        <?php include './footer.php' ?>
