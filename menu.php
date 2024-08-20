@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="./public/basico.css">
+
 <div class="divMenu">
     <a href="index.php">Logo</a>
     <nav class="listaNav">
