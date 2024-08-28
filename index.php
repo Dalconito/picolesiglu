@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./public/index.css">
     <title>Principal</title>
     <script src="./public/script.js"></script>
+    <link href="./public/uicons-bold-rounded-2.5.1/uicons-bold-rounded/webfonts/uicons-bold-rounded.css" rel="stylesheet"> <!--load all styles -->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <?php
@@ -27,9 +28,36 @@
 
       </div>
       <div class="produtoDiv">
-          <p class="tituloChamativo">Nossos Produtos</p>
+          <p class="tituloChamativo">Conheça a loja de Fabrica!</p>
           <p class="subtitulo">Produtos de qualidade para adoçar seu dia</p>
+
+          <div class="carrosselDiv">
+            <div class="textoCarrossel">
+              <p class="texto">Nossa Loja, temos diversos produtos em preços especiais, como os Picolés com ou sem Calda, Sorvete na massa e no copo, Açaí com diversas coberturas</p>
+            </div>
+            <div class="carrossel">
+              <img src="./public/fotos/foto1.webp" alt="">
+              <img src="./public/fotos/foto2.webp" alt="">
+              <img src="./public/fotos/foto3.webp" alt="">
+            </div>
+            <button class="btnCarrossel next"><i class="fi fi-br-angle-circle-left" ></i></button>
+            <button class="btnCarrossel prev"><i class="fi fi-br-angle-circle-right" ></i></button>
+          </div>
       </div>
+        <div>
+          <p class="tituloChamativo">Nosso Diferencial</p>
+          <div class="divIcone">
+            <div class="iconeItem">
+              <i class="fi fi-br-popsicle icone"></i><span>Picolés sao feitos com o cuidado de um caseiro</span>
+            </div>
+            <div class="iconeItem">
+              <i class="fi fi-br-ice-cream icone"></i><span>Nossas Massas sao Caseiras e sem pedaços de gelo</span>
+            </div>
+              <div class="iconeItem">
+                <i class="fi fi fi-br-calendar-day icone"></i><span>Preços especiais para eventos e festas</span>
+            </div>
+          </div>
+        </div>
       <div class="divCentral">
         <div>
           <p class="tituloChamativo">Aonde Estamos<p>

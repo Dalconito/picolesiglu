@@ -7,11 +7,11 @@
     cursor: pointer; box-shadow: 1px 5px 15px #1e0e3e; position: relative;
     overflow: hidden; margin: 0 auto;}
 
-  .container > div:nth-of-type(1) { background: url("./fotos/picadinho.webp") no-repeat 50%/cover;}
-  .container > div:nth-of-type(2) { background: url("./fotos/parmegiana.webp") no-repeat 50%/cover;}
-  .container > div:nth-of-type(3) { background: url("./fotos/peixe.webp") no-repeat 50%/cover;}
-  .container > div:nth-of-type(4) { background: url("./fotos/sobrecoxa.webp") no-repeat 50%/cover;}
-  .container > div:nth-of-type(5) { background: url("./fotos/macarrao.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(1) { background: url("./fotos/foto1.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(2) { background: url("./fotos/foto2.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(3) { background: url("./fotos/foto3.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(4) { background: url("./fotos/foto4.webp") no-repeat 50%/cover;}
+  .container > div:nth-of-type(5) { background: url("./fotos/foto5.webp") no-repeat 50%/cover;}
 
   .container > div .content {font-size: 1.5rem; color: #fff; display: flex; align-items: center;
     padding: 15px; opacity: 0; flex-direction: column; height: 350px; justify-content: flex-end;
@@ -33,6 +33,23 @@
   .btnDiv{ margin: 60px; padding: 60px;}
   .btnChama{font-size: 2.3rem;  background-color: aqua; border-radius: 40px; padding: 20px;}
   .slogan{font-size: 1.4rem; text-align: right; padding-right: 50px}
-  .subtitulo{font-size: 1.4rem; text-align: right; padding-right: 50px;}
-  .produtoDiv{text-align: center; padding: 0;}
   
+  .subtitulo{font-size: 1.0rem; text-align: right; padding-right: 50px; padding-top: 0; margin-top: 0; margin-bottom: 30px;}
+  
+  .divIcone{gap: 80px; margin: auto 0; display: flex; align-items: center; justify-content: center; text-align: center;}
+  .icone{font-size: 40px; size: 50px;}
+  .iconeItem{display: flex; flex-direction: column;}
+  
+  .semEspaco{margin-bottom: 0; padding-bottom: 0; }
+  .texto{font-size: 1.4rem;}
+  
+  .produtoDiv{text-align: center; padding: 0; margin: 0; overflow: hidden; display: flex; flex-direction: column;}
+  .carrosselDiv{ width: 100%; display: flex; flex-direction: row;}
+  .textoCarrossel{width: 50%; text-align: center; justify-items: center;}
+  .carrossel{display: flex; transition: 0.5 ease; width: 50%;}
+  .carrossel img{width: 100%; flex-shrink: 0;}
+
+  .btnCarrossel{ top: 50%; transform: translateY(-50%); background-color: rgba(0, 0, 0, 0.5);
+    color: white; border: none; padding: 10px; cursor: pointer; font-size: 24px;}
+  .next{right: 10px;}
+  .prev{left: 10px;}
