@@ -5,27 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/index.css">
     <title>Principal</title>
-    <script src="./public/script.js"></script>
+
     <link href="./public/uicons-bold-rounded-2.5.1/uicons-bold-rounded/webfonts/uicons-bold-rounded.css" rel="stylesheet"> <!--load all styles -->
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <?php
 
   ?>
-  <body">
+  <body>
     <section><?php include './menu.php' ?></section>
 
     <section class="pagina">
       <div><div><h1 class="tituloChamativo txtCentral">PICOLÉS IGLU</h1></div><h3 class="slogan">O sabor refrescante da Fruta</h3></div>
       <div class="container col-s-12">
         <div><div class="content col-s-6"><h2>Picolés</h2></div></div>
-
         <div><div class="content col-s-6"><h2>Massas</h2></div></div>
-
         <div><div class="content col-s-6"><h2>Açaí</h2></div></div>
-
         <div><div class="content col-s-6"><h2>Caldas dem Picolé</h2></div></div>
-
       </div>
       <div class="produtoDiv">
           <p class="tituloChamativo">Conheça a loja de Fabrica!</p>
@@ -34,18 +30,20 @@
           <div class="carrosselDiv">
             <div class="textoCarrossel">
               <p class="texto">Nossa Loja, temos diversos produtos em preços especiais, como os Picolés com ou sem Calda, Sorvete na massa e no copo, Açaí com diversas coberturas</p>
+              <a class="btnLoja" href="produtos.php">Conheça Nossa Loja</a>
             </div>
-            <div class="carrossel">
-              <img src="./public/fotos/foto1.webp" alt="">
-              <img src="./public/fotos/foto2.webp" alt="">
-              <img src="./public/fotos/foto3.webp" alt="">
+            <div class="carrosselPai">
+              <div class="carrossel">
+                <img src="./public/fotos/foto1.webp">
+                <img src="./public/fotos/foto2.webp">
+                <img src="./public/fotos/foto3.webp">
+              </div>
+              <button class="prev btnCarrossel"><i class="fi fi-br-angle-circle-left" ></i></button>
+              <button class="next btnCarrossel"><i class="fi fi-br-angle-circle-right" ></i></button>
             </div>
-            <button class="btnCarrossel next"><i class="fi fi-br-angle-circle-left" ></i></button>
-            <button class="btnCarrossel prev"><i class="fi fi-br-angle-circle-right" ></i></button>
           </div>
       </div>
-        <div>
-          <p class="tituloChamativo">Nosso Diferencial</p>
+      
           <div class="divIcone">
             <div class="iconeItem">
               <i class="fi fi-br-popsicle icone"></i><span>Picolés sao feitos com o cuidado de um caseiro</span>
@@ -57,7 +55,7 @@
                 <i class="fi fi fi-br-calendar-day icone"></i><span>Preços especiais para eventos e festas</span>
             </div>
           </div>
-        </div>
+
       <div class="divCentral">
         <div>
           <p class="tituloChamativo">Aonde Estamos<p>
@@ -75,5 +73,6 @@
     </section>
 
     <footer><?php include './footer.php' ?></footer>
+    <script src="./public/script.js"></script>
   </body>
 </html>
