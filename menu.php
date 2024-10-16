@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="./public/basico.css">
+<link rel="stylesheet" href="./public/css/menu.css">
 
 <div class="divMenu">
-    <a href="index.php">Logo</a>
+    <a href="index.php" class="imgLogo"><img src="./public/fotos/Logo.jpg" style=" width: 100%;"></a>
     <nav class="listaNav">
         <ul class="listaMenu">
             <li><a href="index.php">Principal</a></li>

@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./public/index.css">
+  <link rel="stylesheet" href="./public/css/index.css">
   <title>Principal</title>
-  <link href="./public/uicons-bold-rounded-2.5.1/uicons-bold-rounded/webfonts/uicons-bold-rounded.css" rel="stylesheet">
+  <link href="./public/css/uicons-bold-rounded-2.5.1/uicons-bold-rounded/webfonts/uicons-bold-rounded.css" rel="stylesheet">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 <?php
@@ -17,10 +17,10 @@
   <section class="pagina">
     <div><div><h1 class="tituloChamativo txtCentral">PICOLÉS IGLU</h1></div><h3 class="slogan">O sabor refrescante da Fruta</h3></div>
     <div class="container col-s-12">
-    <div><div class="content col-s-6"><h2>Picolés</h2></div></div>
-    <div><div class="content col-s-6"><h2>Massas</h2></div></div>
-    <div><div class="content col-s-6"><h2>Açaí</h2></div></div>
-    <div><div class="content col-s-6"><h2>Caldas dem Picolé</h2></div></div>
+      <div><div class="content col-s-6"><h2>Picolés</h2></div></div>
+      <div><div class="content col-s-6"><h2>Massas</h2></div></div>
+      <div><div class="content col-s-6"><h2>Açaí</h2></div></div>
+      <div><div class="content col-s-6"><h2>Caldas dem Picolé</h2></div></div>
     </div>
     <div class="LojaDiv">
       <p class="tituloChamativo">Conheça a loja de Fabrica!</p>
@@ -28,7 +28,9 @@
 
       <div class="carrosselDiv">
         <div class="textoCarrossel">
-          <p class="texto">Nossa Loja, temos diversos produtos em preços especiais, como os Picolés simples, Picolés com cobertura, Sorvete de Massa, Açaí com diversas coberturas</p>
+          <p class="texto">Nossa Loja, temos diversos produtos em preços especiais, 
+            como os Picolés simples, Picolés com cobertura, Sorvete de Massa, 
+            Açaí com diversas coberturas</p>
         </div>
         <div class="carrosselPai">
           <div class="carrossel">
@@ -92,6 +94,6 @@
   </section>
 
   <footer><?php include './footer.php' ?></footer>
-  <script src="./public/script.js"></script>
+  <script src="./public/js/script.js"></script>
 </body>
 </html>

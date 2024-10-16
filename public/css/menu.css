@@ -1,0 +1,20 @@
+li{list-style: none; text-decoration: none;}
+
+.listaMenu{display: flex; padding: 20px; margin: 0 auto;
+    text-align: center; font-size: 1.5rem;
+    background-color: #0194be;gap: 30px;}
+
+.listaMenu > li> a {color: #e2d397; font-weight: bolder;}
+.listaMenu > li {width: 25%;}
+
+a:link, a:visited{ text-decoration: none;}
+
+.divMenu{display: flex}
+
+.divMenu>a {background-color: rgb(113, 113, 113);
+    font-weight: bolder; text-align: center; height: 70px;}
+
+.imgLogo img {width: 10%; height: 100%;}
+
+.listaNav{width: 50%; margin: 0 auto; height: 100px;}
+
